@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy_Bird</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="subOverlay">
+                <button onclick="location.reload()">Play</button>
+                <button>LeaderBoard</button>
+                <span id="parentFinalScore" style="font-size:20px;font-weight:bold;color:purple;display:none;">YOUR SCORE:<span class="finalScore" style="font-size:30px;font-weight:bold;color:purple;margin-left:10px"></span></span>
+            </div>
+        </div>
+        <div class="wrapper">
+            <span class="display">SCORE: <span class="displayScore">0</span></span>
+            <!-- -->
+            <div class="x y" id="b1U"></div>
+            <div class="x" id="b1D"></div>
+            <div class="x y" id="b2U"></div>
+            <div class="x" id="b2D"></div>
+            <div class="x y" id="b3U"></div>
+            <div class="x" id="b3D"></div>
+            <div class="x y" id="b4U"></div>
+            <div class="x" id="b4D"></div>
+            <div class="x y" id="b5U"></div>
+            <div class="x" id="b5D"></div>
+            <div class="x y" id="b6U"></div>
+            <div class="x" id="b6D"></div>
+            <div class="x y" id="b7U"></div>
+            <div class="x" id="b7D"></div>
+            <div class="x y" id="b8U"></div>
+            <div class="x" id="b8D"></div>
+            <div class="x y" id="b9U"></div>
+            <div class="x" id="b9D"></div>
+            <div class="x y" id="b10U"></div>
+            <div class="x" id="b10D"></div>
+            <!--  -->
+            <div class="bird"><img id="birdImage" src="bird1.png" alt=""></div>
+        </div>
+        <button id="Action" onclick="moveBird()">MoveIt</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
